@@ -1,0 +1,79 @@
+/* Write your code here. */
+@media (max-width: 768px) {
+  .bg-container {
+    background-color: #f1f5f8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+  }
+
+  .card-container {
+    background-color: #ffffff;
+    min-height: 90%;
+    max-height: 200%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 20px;
+  }
+
+  .main-heading {
+    color: #cb8805;
+    font-size: 35px;
+  }
+
+  .list-container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    background-color: #f1f5f8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+  }
+
+  .card-container {
+    background-color: #ffffff;
+    min-height: 90%;
+    max-height: 200%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 20px;
+  }
+
+  .main-heading {
+    color: #cb8805;
+    font-size: 50px;
+  }
+
+  .list-container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+  }
+}
